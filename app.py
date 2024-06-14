@@ -58,6 +58,7 @@ def main():
 
     # Test the model
     score = test_model(model, X_test, y_test)
+    print("Hello, COMPLETED!")
     # print score is:
     print("Model accuracy is: ", score)
     return score
